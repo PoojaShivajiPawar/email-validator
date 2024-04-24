@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+color: white;
+padding: 0;
+margin: 0;
+height: 4vW;
+}
+
+.container{
+    margin: auto;
+    background-color: rgb(126, 209, 237);
+    max-width: 35vw;
+    padding: 20px;
+}
+
+
+.logo img{
+    height: 40px;
+    width: 100px;
+    filter: invert(100%);
+}
+
+.logo span{
+    font: bold;
+    font-size: 25px;
+}
+
+.logo{
+display: flex;
+
+align-items: center;}
+
+h2{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+ ul li{
+    list-style: none;
+    padding: 0 13px;
+    font: bold;
+    font-size: 25px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+ul >li> a:hover{
+    color: rgb(187, 147, 147);
+}
+
+main{
+    min-height: 80.5vh;
+    padding: 25px ;
+    text-align: center;}
+
+input {
+    padding: 10px;
+    width: 55%;
+    margin: 0 50px;
+    text-align: center;
+}
+
+#Submit{
+    background-color: rgb(30, 130, 30);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    width: 60%;
+}
+
+#Submit:hover{
+    cursor: pointer;
+}
+
+footer{
+display: flex;
+align-items: center;
+justify-content:center;
+background-color: black;
+color: white;
+margin: 0;
+padding: 10px;
+font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
